@@ -1,0 +1,148 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+Windows PowerShell  larProjects>
+Copyright
+(C) Microsoft Corporation. All rights reserved.
+
+PS F:\AnguPS F:\AngularProjects> ng -v
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / ? \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 6.1.5
+Node: 8.11.4
+OS: win32 x64
+Angular:
+...
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.7.5
+@angular-devkit/core         0.7.5
+@angular-devkit/schematics   0.7.5
+@schematics/angular          0.7.5
+@schematics/update           0.7.5
+rxjs                         6.3.1
+typescript                   2.9.2
+
+PS F:\AngularProjects> ng new FirstApp
+CREATE FirstApp/angular.json (3566 bytes)
+CREATE FirstApp/package.json (1314 bytes)
+CREATE FirstApp/README.md (1025 bytes)
+CREATE FirstApp/tsconfig.json (408 bytes)
+CREATE FirstApp/tslint.json (2805 bytes)
+CREATE FirstApp/.editorconfig (245 bytes)
+CREATE FirstApp/.gitignore (503 bytes)
+CREATE FirstApp/src/favicon.ico (5430 bytes)
+CREATE FirstApp/src/index.html (295 bytes)
+CREATE FirstApp/src/main.ts (370 bytes)
+CREATE FirstApp/src/polyfills.ts (3194 bytes)
+CREATE FirstApp/src/test.ts (642 bytes)
+CREATE FirstApp/src/styles.css (80 bytes)
+CREATE FirstApp/src/browserslist (388 bytes)
+CREATE FirstApp/src/karma.conf.js (964 bytes)
+CREATE FirstApp/src/tsconfig.app.json (166 bytes)
+CREATE FirstApp/src/tsconfig.spec.json (256 bytes)
+CREATE FirstApp/src/tslint.json (314 bytes)
+CREATE FirstApp/src/assets/.gitkeep (0 bytes)
+CREATE FirstApp/src/environments/environment.prod.ts (51 bytes)
+CREATE FirstApp/src/environments/environment.ts (642 bytes)
+CREATE FirstApp/src/app/app.module.ts (314 bytes)
+CREATE FirstApp/src/app/app.component.html (1141 bytes)
+CREATE FirstApp/src/app/app.component.spec.ts (1001 bytes)
+CREATE FirstApp/src/app/app.component.ts (212 bytes)
+CREATE FirstApp/src/app/app.component.css (0 bytes)
+CREATE FirstApp/e2e/protractor.conf.js (752 bytes)
+CREATE FirstApp/e2e/tsconfig.e2e.json (213 bytes)
+CREATE FirstApp/e2e/src/app.e2e-spec.ts (304 bytes)
+CREATE FirstApp/e2e/src/app.po.ts (208 bytes)
+npm WARN notice [SECURITY] lodash has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=lodash&version=3.10.1 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN deprecated istanbul-lib-hook@1.2.1: 1.2.0 should have been a major version bump
+npm WARN notice [SECURITY] ws has the following vulnerability: 1 high. Go here for more details: https://nodesecurity.io/advisories?search=ws&version=1.1.2 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit`
+to get more info.
+npm WARN notice [SECURITY] debug has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=debug&version=2.3.3 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] debug has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=debug&version=2.2.0 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] debug has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=debug&version=2.3.3 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] debug has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=debug&version=2.3.3 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] parsejson has the following vulnerability: 1 high. Go here for more details: https://nodesecurity.io/advisories?search=parsejson&version=0.0.3 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+
+> node-sass@4.9.3 install F:\AngularProjects\FirstApp\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.9.3/win32-x64-57_binding.node
+Download complete  ] - :
+Binary saved to F:\AngularProjects\FirstApp\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Caching binary to C:\Users\K.Nagaraju\AppData\Roaming\npm-cache\node-sass\4.9.3\win32-x64-57_binding.node
+
+> node-sass@4.9.3 postinstall F:\AngularProjects\FirstApp\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at F:\AngularProjects\FirstApp\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Testing binary
+Binary is fine
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1102 packages in 204.829s
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/tsconfig.e2e.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/browserslist.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/karma.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/main.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/polyfills.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/styles.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/test.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tsconfig.app.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tsconfig.spec.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tslint.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tslint.json.
+The file will have its original line endings in your working directory.
+    Successfully initialized git.
+PS F:\AngularProjects>
